@@ -51,19 +51,19 @@ const Article = () => {
   };
 
   useEffect(() => {
-    onSnapshot(
-      collection(db, "Blog Yazıları"),
-      (snapshot) => {
-        let list = [];
-        snapshot.docs.forEach((doc) => {
-          list.push({ id: doc.Title, ...doc.data() });
-        });
-        setBlogs(list);
-      },
-      (error) => {
-        console.log(error);
-      }
-    );
+//     onSnapshot(
+//       collection(db, "Blog Yazıları"),
+//       (snapshot) => {
+//         let list = [];
+//         snapshot.docs.forEach((doc) => {
+//           list.push({ id: doc.Title, ...doc.data() });
+//         });
+//         setBlogs(list);
+//       },
+//       (error) => {
+//         console.log(error);
+//       }
+//     );
   }, []);
   console.log(blogs);
 
