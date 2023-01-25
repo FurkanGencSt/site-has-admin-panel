@@ -1,0 +1,15 @@
+.one {
+  background-image: url(../../assets/pictures/Parallax/p6.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.two {
+  background-image: url(../../assets/pictures/Parallax/p6.png);
+  background-size: cover;
+}
+.three {
+  background-image: url(../../assets/pictures/Parallax/p6.png);
+  background-size: cover;
+}

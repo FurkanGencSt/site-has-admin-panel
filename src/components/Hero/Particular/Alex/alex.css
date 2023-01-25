@@ -1,0 +1,9 @@
+.alex {
+  background: radial-gradient(circle, #4f46e4 10%, transparent 11%),
+    radial-gradient(circle at bottom left, #4f46e4 5%, transparent 6%),
+    radial-gradient(circle at bottom right, #4f46e4 5%, transparent 6%),
+    radial-gradient(circle at top left, #4f46e4 5%, transparent 6%),
+    radial-gradient(circle at top right, #4f46e4 5%, transparent 6%);
+  background-size: 1em 1em;
+  background-color: #ffffff;
+}
