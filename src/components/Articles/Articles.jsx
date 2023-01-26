@@ -51,6 +51,7 @@ const Article = () => {
   };
 
   useEffect(() => {
+<<<<<<< HEAD
     // onSnapshot(
     //   collection(db, "Blog Yazıları"),
     //   (snapshot) => {
@@ -64,6 +65,21 @@ const Article = () => {
     //     console.log(error);
     //   }
     // );
+=======
+//     onSnapshot(
+//       collection(db, "Blog Yazıları"),
+//       (snapshot) => {
+//         let list = [];
+//         snapshot.docs.forEach((doc) => {
+//           list.push({ id: doc.Title, ...doc.data() });
+//         });
+//         setBlogs(list);
+//       },
+//       (error) => {
+//         console.log(error);
+//       }
+//     );
+>>>>>>> 6102f24a5a16c424f970b8694a636a75a9b3a3e9
   }, []);
   console.log(blogs);
 
